@@ -1,0 +1,11 @@
+<ion-view view-title="Parent">
+	<ion-content>
+		<div class="list">
+		  <a class="item item-icon-left" ng-repeat="founder in vm.founders" 
+		  ng-click="vm.founderDetails(founder.id)">
+		    <i class="icon ion-person"></i>
+		    {{founder.name}}
+		  </a>
+		</div>
+	</ion-content>
+</ion-view>
